@@ -1,8 +1,7 @@
 'use strict'
 
 document.addEventListener('DOMContentLoaded', function() {
-
-	//Zadanie 1
+//Zadanie 1
 		
 	var menu = document.querySelector('.dropdown');
 	var forDropdown = document.querySelector('.for-dropdown');
@@ -17,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	menu.style.display = 'none'});
 
-	//Zadanie 2
+//Zadanie 2
 
 
 	//console.log(buttons);
@@ -41,6 +40,17 @@ document.addEventListener('DOMContentLoaded', function() {
         buttons[i].addEventListener('click', showHide);
     }
 
+	
+//Zadanie 3
+	var navlist = document.querySelector('.nav-list');
+	//console.log(navlist);
+	
+	window.addEventListener('scroll', function() {
+      navlist.style.borderBottom = '1px solid #7f7f7f';
+    });
+	
+	
+	
 });
 
 	
